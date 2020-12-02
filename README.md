@@ -14,6 +14,9 @@ Transmission Control Protocol (TCP)
 ## What is the Port 443?
 * The Port 443, a web browsing port, is primarily used for HTTPS services. It is another type of HTTP that provides encryption and transport over secure ports. In some security-demanding sites, such as banking, securities, shopping, etc., are using HTTPS service, so that the exchange of information on these sites, other people captured packets obtained is encrypted data to ensure the security of transactions.
 
+## Difference between TCP and UDP
+[TCP vs UDP](https://www.guru99.com/tcp-vs-udp-understanding-the-difference.html)
+
 # Questions
 * Difference between TCP and UDP.
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
