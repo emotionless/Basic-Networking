@@ -17,10 +17,11 @@ Transmission Control Protocol (TCP)
 ## Difference between TCP and UDP
 [TCP vs UDP](https://www.guru99.com/tcp-vs-udp-understanding-the-difference.html)
 
+## How does DNS work?
+[youtube](https://www.youtube.com/watch?v=mpQZVYPuDGU)
+
 # Questions
-* Difference between TCP and UDP.
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
-* Understand how DNS works.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
 * Know the basic difference between IPv4 and IPv6 addressing.
 * Understand how a firewall works. Difference between "whitelisting" and "blacklisting", port forwarding, Network Address Translation and basic network security * concepts like IP range blocking.
