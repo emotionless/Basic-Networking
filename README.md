@@ -20,6 +20,8 @@ Transmission Control Protocol (TCP)
 ## How does DNS work?
 [youtube](https://www.youtube.com/watch?v=mpQZVYPuDGU)
 
+[IP classes](https://www.meridianoutpost.com/resources/articles/IP-classes.php)
+
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
