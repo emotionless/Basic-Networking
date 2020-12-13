@@ -24,6 +24,7 @@ Transmission Control Protocol (TCP)
 
 ## Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
 [Ports](https://www.ionos.com/digitalguide/server/know-how/tcp-ports-and-udp-ports)
+
 [Registered Ports](https://www.sciencedirect.com/topics/computer-science/registered-port)
 
 # Questions
