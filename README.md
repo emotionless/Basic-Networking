@@ -27,6 +27,30 @@ Transmission Control Protocol (TCP)
 
 [Registered Ports](https://www.sciencedirect.com/topics/computer-science/registered-port)
 
+## Know the basic difference between IPv4 and IPv6 addressing.
+### KEY DIFFERENCE
+* IPv4 is 32-Bit IP address whereas IPv6 is a 128-Bit IP address.
+* IPv4 is a numeric addressing method whereas IPv6 is an alphanumeric addressing method.
+* IPv4 binary bits are separated by a dot(.) whereas IPv6 binary bits are separated by a colon(:).
+* IPv4 offers 12 header fields whereas IPv6 offers 8 header fields.
+* IPv4 supports broadcast whereas IPv6 doesn’t support broadcast.
+* IPv4 has checksum fields while IPv6 doesn’t have checksum fields
+* IPv4 supports VLSM (Virtual Length Subnet Mask) whereas IPv6 doesn’t support VLSM.
+* IPv4 uses ARP (Address Resolution Protocol) to map to MAC address whereas IPv6 uses NDP (Neighbour Discovery Protocol) to map to MAC address.
+
+#### Features of IPv4
+* Connectionless Protocol
+* Allow creating a simple virtual communication layer over diversified devices
+* It requires less memory, and ease of remembering addresses
+* Already supported protocol by millions of devices
+* Offers video libraries and conferences
+
+#### Features of IPv6
+* Hierarchical addressing and routing infrastructure
+* Stateful and Stateless configuration
+* Support for quality of service (QoS)
+* An ideal protocol for neighboring node interaction
+
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
