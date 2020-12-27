@@ -51,6 +51,15 @@ Transmission Control Protocol (TCP)
 * Support for quality of service (QoS)
 * An ideal protocol for neighboring node interaction
 
+## Understand how a firewall works
+Firewalls are software or hardware that work as a filtration system for the data attempting to enter your computer or network. Firewalls scan packets for malicious code or attack vectors that have already been identified as established threats. Should a data packet be flagged and determined to be a security risk, the firewall prevents it from entering the network or reaching your computer. 
+
+## What is Network Address Translation
+To access the Internet, one public IP address is needed, but we can use a private IP address in our private network. The idea of NAT is to allow multiple devices to access the Internet through a single public address. To achieve this, the translation of private IP address to a public IP address is required. Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. masks the port number of the host with another port number, in the packet that will be routed to the destination. It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on router or firewall.
+
+## Basic Network security
+Backup, Firewall/router, content filtering, Operating System Updates,  Other software updates, Who is an Administrator, Anti-Virus/Anti Malware software.  
+
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
@@ -58,4 +67,6 @@ Transmission Control Protocol (TCP)
 * Understand how a firewall works. Difference between "whitelisting" and "blacklisting", port forwarding, Network Address Translation and basic network security * concepts like IP range blocking.
 * Have an understanding of how routing works on the Internet.
 * Beyond TCP/IP, understanding how SSL work, various telecommunications networks and circuits (i.e. T1, T2, OC-192, etc), different application protocol transports like ATM and MQ-style messaging.
+
+
 
