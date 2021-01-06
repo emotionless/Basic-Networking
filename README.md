@@ -60,6 +60,22 @@ To access the Internet, one public IP address is needed, but we can use a privat
 ## Basic Network security
 Backup, Firewall/router, content filtering, Operating System Updates,  Other software updates, Who is an Administrator, Anti-Virus/Anti Malware software.  
 
+## How routing works on the Internet
+Routers refer to internal routing tables to make decisions about how to route packets along network paths. A routing table records the paths that packets should take to reach every destination that the router is responsible for. Think of train timetables, which train passengers consult to decide which train to catch. Routing tables are like that, but for network paths rather than trains.
+
+Routers work in the following way: when a router receives a packet, it reads the headers* of the packet to see its intended destination, like the way a train conductor may check a passenger's tickets to determine which train they should go on. It then determines where to route the packet based on information in its routing tables.
+
+Routers do this millions of times a second with millions of packets. As a packet travels to its destination, it may be routed several times by different routers.
+
+Routing tables can either be static or dynamic. Static routing tables do not change. A network administrator manually sets up static routing tables. This essentially sets in stone the routes data packets take across the network, unless the administrator manually updates the tables.
+
+Dynamic routing tables update automatically. Dynamic routers use various routing protocols (see below) to determine the shortest and fastest paths. They also make this determination based on how long it takes packets to reach their destination — similar to the way Google Maps, Waze, and other GPS services determine the best driving routes based on past driving performance and current driving conditions.
+
+Dynamic routing requires more computing power, which is why smaller networks may rely on static routing. But for medium-sized and large networks, dynamic routing is much more efficient.
+
+* [How does routing work](https://www.cloudflare.com/learning/network-layer/what-is-routing/)
+* [Internet routing protocol - best](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:routing-with-redundancy/a/internet-routing)
+
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
