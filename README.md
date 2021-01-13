@@ -138,6 +138,11 @@ Three transport protocols are used in IMS:
 * User Datagram Protocol (UDP),
 * Stream Control Transmission Protocol ([SCTP](https://www.networkworld.com/article/2222277/what-about-stream-control-transmission-protocol--sctp--.html)).
 
+## What is port number in computer network
+A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server. For the Transmission Control Protocol and the User Datagram Protocol, a port number is a 16-bit integer that is put in the header appended to a message unit.
+
+> A port number is a 16-bit unsigned integer, thus ranging from 0 to 65535. For TCP, port number 0 is reserved and cannot be used, while for UDP, the source port is optional and a value of zero means no port.
+
 
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
