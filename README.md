@@ -136,7 +136,7 @@ For example:
 Three transport protocols are used in IMS:
 * Transmission Control Protocol (TCP), 
 * User Datagram Protocol (UDP),
-* Stream Control Transmission Protocol (SCTP).
+* Stream Control Transmission Protocol ([SCTP](https://www.networkworld.com/article/2222277/what-about-stream-control-transmission-protocol--sctp--.html)).
 
 
 # Questions
