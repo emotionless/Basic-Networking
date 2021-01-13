@@ -76,6 +76,39 @@ Dynamic routing requires more computing power, which is why smaller networks may
 * [How does routing work](https://www.cloudflare.com/learning/network-layer/what-is-routing/)
 * [Internet routing protocol - best](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:routing-with-redundancy/a/internet-routing)
 
+## What is an SSL Certificate?
+SSL stands for Secure Sockets Layer and, in short, it's the standard technology for keeping an internet connection secure and safeguarding any sensitive data that is being sent between two systems, preventing criminals from reading and modifying any information transferred, including potential personal details. The two systems can be a server and a client (for example, a shopping website and browser) or server to server (for example, an application with personal identifiable information or with payroll information).
+
+It does this by making sure that any data transferred between users and sites, or between two systems remain impossible to read. It uses encryption algorithms to scramble data in transit, preventing hackers from reading it as it is sent over the connection. This information could be anything sensitive or personal which can include credit card numbers and other financial information, names and addresses.
+
+TLS (Transport Layer Security) is just an updated, more secure, version of SSL. We still refer to our security certificates as SSL because it is a more commonly used term, but when you are buying SSL from DigiCert you are actually buying the most up to date TLS certificates with the option of ECC, RSA or DSA encryption.
+
+HTTPS (Hyper Text Transfer Protocol Secure) appears in the URL when a website is secured by an SSL certificate. The details of the certificate, including the issuing authority and the corporate name of the website owner, can be viewed by clicking on the lock symbol on the browser bar.
+
+## What is SSL?
+SSL stands for Secure Sockets Layer, and it refers to a protocol for encrypting and securing communications that take place on the Internet. Although SSL was replaced by an updated protocol called TLS (Transport Layer Security) some time ago, "SSL" is still a commonly used term for this technology.
+
+The main use case for SSL/TLS is securing communications between a client and a server, but it can also secure email, VoIP, and other communications over unsecured networks.
+
+## How does SSL/TLS work?
+These are the essential principles to grasp for understanding how SSL/TLS works:
+
+Secure communication begins with a TLS handshake, in which the two communicating parties open a secure connection and exchange the public key
+During the TLS handshake, the two parties generate session keys, and the session keys encrypt and decrypt all communications after the TLS handshake
+Different session keys are used to encrypt communications in each new session
+TLS ensures that the party on the server side, or the website the user is interacting with, is actually who they claim to be
+TLS also ensures that data has not been altered, since a message authentication code (MAC) is included with transmissions
+With TLS, both HTTP data that users send to a website (by clicking, filling out forms, etc.) and the HTTP data that websites send to users is encrypted. Encrypted data has to be decrypted by the recipient using a key.
+
+## Different types of `Application` layer protocols
+* Remote login to hosts: Telnet
+* File transfer: File Transfer Protocol (FTP), Trivial File Transfer Protocol (TFTP)
+* Electronic mail transport: Simple Mail Transfer Protocol (SMTP)
+* Networking support: Domain Name System (DNS)
+* Access data on the world wide web: HTTP, HTTPS
+> [Application layer protocols details](https://gradeup.co/application-layer-protocols-dns-smtp-pop-ftp-http-i-ba1194bd-c5ab-11e5-9dcb-5849de73f8e1)
+
+
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
