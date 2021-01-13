@@ -108,6 +108,9 @@ With TLS, both HTTP data that users send to a website (by clicking, filling out 
 * Access data on the world wide web: HTTP, HTTPS
 > [Application layer protocols details](https://gradeup.co/application-layer-protocols-dns-smtp-pop-ftp-http-i-ba1194bd-c5ab-11e5-9dcb-5849de73f8e1)
 
+## The Advanced Message Queuing Protocol
+Advanced Message Queuing Protocol (AMQP) is an application layer protocol that focuses on process-to-process([link](https://www.oreilly.com/library/view/java-message-service/9780596802264/ch04.html)) communication across IP networks. An encoding schema and a set of procedures allow for two different servers to communicate regardless of the technology used. Overall, the goal of AMQP is to enable message passing through broker services over TCP/IP connections. AMQP is considered a compact protocol, since it’s a binary protocol, meaning that everything sent over AMQP is binary data. A binary protocol avoids sending useless data over the wire.
+> [Link](https://www.cloudamqp.com/blog/2019-11-21-what-is-amqp-and-why-is-it-used-in-rabbitmq.html)
 
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
@@ -116,6 +119,3 @@ With TLS, both HTTP data that users send to a website (by clicking, filling out 
 * Understand how a firewall works. Difference between "whitelisting" and "blacklisting", port forwarding, Network Address Translation and basic network security * concepts like IP range blocking.
 * Have an understanding of how routing works on the Internet.
 * Beyond TCP/IP, understanding how SSL work, various telecommunications networks and circuits (i.e. T1, T2, OC-192, etc), different application protocol transports like ATM and MQ-style messaging.
-
-
-
