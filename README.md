@@ -112,6 +112,17 @@ With TLS, both HTTP data that users send to a website (by clicking, filling out 
 Advanced Message Queuing Protocol (AMQP) is an application layer protocol that focuses on process-to-process([link](https://www.oreilly.com/library/view/java-message-service/9780596802264/ch04.html)) communication across IP networks. An encoding schema and a set of procedures allow for two different servers to communicate regardless of the technology used. Overall, the goal of AMQP is to enable message passing through broker services over TCP/IP connections. AMQP is considered a compact protocol, since it’s a binary protocol, meaning that everything sent over AMQP is binary data. A binary protocol avoids sending useless data over the wire.
 > [Link](https://www.cloudamqp.com/blog/2019-11-21-what-is-amqp-and-why-is-it-used-in-rabbitmq.html)
 
+## What is socket
+Two processes that run on the same machine, or different machines, communicate through sockets. Sockets are seen as the end of the two-way communication between two processes; they allow processes to communicate with each other ​using a file descriptor and are commonly used in client-server applications that allow ​for ​communication between multiple applications.
+
+## How sockets are created
+A socket is created by concatenating the IP number of a system and a software port number (not a ​hardware port number). This allows the process to know the address of the system (the IP address) and the address where the information needs to be sent (the port number). The IP number and the port number are separated by a ​:.
+
+Example: 192.168.1.25:8080
+
+IP address + Port
+
+
 # Questions
 * Understand what the different address classes (A, B, C), know what the private network addresses are used for, what local and broadcast addresses are.
 * Understand the role of ports in TCP, standard and non-standard port ranges and know common standard ports for commonly used protocols.
