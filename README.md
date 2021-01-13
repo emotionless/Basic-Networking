@@ -120,7 +120,23 @@ A socket is created by concatenating the IP number of a system and a software po
 
 Example: 192.168.1.25:8080
 
-IP address + Port
+A socket consists of three things:
+* An IP address
+* A transport protocol
+* A port number
+A port is a number between 1 and 65535 inclusive that signifies a logical gate in a device. Every connection between a client and server requires a unique socket.
+
+For example:
+
+1030 is a port.
+
+(10.1.1.2 , TCP , port 1030) is a socket.
+
+## Protocols at Transport Layer
+Three transport protocols are used in IMS:
+* Transmission Control Protocol (TCP), 
+* User Datagram Protocol (UDP),
+* Stream Control Transmission Protocol (SCTP).
 
 
 # Questions
