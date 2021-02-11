@@ -151,3 +151,15 @@ A port number is a way to identify a specific process to which an Internet or ot
 * Understand how a firewall works. Difference between "whitelisting" and "blacklisting", port forwarding, Network Address Translation and basic network security * concepts like IP range blocking.
 * Have an understanding of how routing works on the Internet.
 * Beyond TCP/IP, understanding how SSL work, various telecommunications networks and circuits (i.e. T1, T2, OC-192, etc), different application protocol transports like ATM and MQ-style messaging.
+
+
+## Key notes from algoExpert video:
+* A packet during sending from a computer to another computer can contains at most 2^16 bytes. (64 KB)
+### Latency
+* Reading 1 MB from RAM : 250 μs (0.25 ms)
+* Reading 1 MB from SSD : 1,000 μs (1 ms)
+* Transfer 1 MB over Network : 10,000 μs (10 ms)
+* Reading 1MB from HDD : 20,000 μs (20 ms)
+* Inter-Continental Round Trip : 150,000 μs (150 ms)
+### Throughput
+The number of operations that a system can handle properly per time unit. For instance the throughput of a server can often be measured in requests per second (RPS or QPS).
